@@ -1,17 +1,15 @@
 #!/usr/bin/python3
-""Pascal Triangle Challenge ""
+"""Pascal triangle"""
 
 
 def pascal_triangle(n):
-    """returns a list of lists of numbers
-    representing the pascal triangle"""
+    """fucntion to get the number of pascal triangle"""
     if n <= 0:
         return []
 
     pascal_triangle = [0] * n
 
     for i in range(n):
-        # define a row and fill first and last idx with 1
         new_row = [0] * (i+1)
         new_row[0] = 1
         new_row[len(new_row) - 1] = 1
