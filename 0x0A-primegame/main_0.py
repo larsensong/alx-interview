@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 
 isWinner = __import__('0-prime_game').isWinner
 
